@@ -182,12 +182,9 @@ a {
 .site-section {
   padding: 5em 0; }
 
-  .site-section .about-pic {
-    
-  }
   .site-section .about-pic img {
     border-radius: 10px;
-    width: 250px;
+    width: 15rem;
   }
 
 .section-heading {
@@ -473,7 +470,7 @@ a {
 
   .thumb img {
     border-radius: 10%;
-    width: 400px;
+    width: 25rem;
     
   }
   .thumb img:hover {
