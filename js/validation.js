@@ -10,7 +10,7 @@ var checkEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 var chekcPhone=/^\d{10}$/;                                       
 var checkName = /\d+$/g;
 
-//span
+//for span
 let errorName = document.getElementById('error-name')
 let errorEmail = document.getElementById('error-email')
 let errorPhone = document.getElementById('error-phone')
@@ -30,7 +30,7 @@ gform.addEventListener('submit',(e)=>{
     
     //check values
     
-    if(valName == "" || valName.lenght < 4) {
+    if(valName == "" || valName.lenght < 4 || valName.charAt(0) == " ") {
         errorName.style.display = "inline";
         errorName.innerText = "Enter Name Properly"
         document.getElementById('fname').style.backgroundColor = "rgb(150, 62, 62)"
